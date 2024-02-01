@@ -1,0 +1,42 @@
+.parent {
+    display: flex;
+    width: 200vh;
+    align-items: center;
+    border: 1px solid black;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10px;
+    /* justify-content: center ; */
+    gap: 5rem;
+    height: auto;
+    /* justify-content: space-between; */
+}
+.parent .content {
+    width: 510px;
+    border-left: 1px solid black;
+    padding: 1.5rem;
+}
+.content h1 {
+    width: 100%;
+}
+.content .child {
+    display: flex;
+    width: 800px;
+    gap: 1rem;
+    
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 700px;
+}
+.form .input{
+   display: flex;
+   width: 500px;
+   gap: 2rem;
+}
+.form .input input {
+    outline: none;
+    border: 1px solid black;
+}
